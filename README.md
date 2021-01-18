@@ -4,7 +4,7 @@ Text extracted are: Card id, Surname, Forenames, Country, Date of Birth and Date
 
 It uses web technology in the client side and php with python in backend.
 
-How Code works
+## How Code works
 
 Php is responsible for accepting image from the browser and uploading it to the uploads directory. Then a notification is sent to python through socket to notify the image is ready for processing.
 
