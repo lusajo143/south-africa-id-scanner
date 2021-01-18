@@ -1,0 +1,63 @@
+.body{
+    background-image: url("res/south.jpg");
+}
+
+.sub{
+    width: 10em;  
+    height: 2em;   
+    background-color: darkgreen; 
+    color: white;
+    border-style: ridge;
+    border-radius: 20px;
+}
+
+.desc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    margin-top: 10%;
+    box-shadow: rgb(129, 129, 129) 0px 0px 20px;
+    background-color: rgb(32, 134, 32, 0.8);
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    padding-bottom: 20px;
+  }
+  #head{
+    color: yellow;
+    font-family: 'Segoe UI', sans-serif;
+    text-shadow: black 5px 5px 10px;
+  }
+  .para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .sub:hover{
+    background-color: green;
+    cursor: pointer;
+  }
+  .choose::before{
+    background-color: grey;
+    width: 11em;
+    height: 2em;
+    color: black;
+  }
+  .body{
+    background-image: url("res/south.jpg");
+  }
+
+.table{
+    align-content: center;
+    margin-left: 7em;
+    border-spacing: 1em;
+}
